@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <h1> Registration Form</h1>
+  </head>  
+<body>
+<form action="insert.php" method="post">
+     <table>
+           <tr>
+               <td>
+                   FIRST NAME:
+               </td>
+               <td>        
+                   <input type="text" name="firstName"> 
+                </td>
+             </tr>
+             <table>
+             <tr>
+               <td>
+                LAST NAME:
+
+               </td>
+                <td>
+                 <input type="text" name = "lastName">
+                </td>
+              </tr>
+
+
+           
+            <tr>
+                 <td>
+                   EMAIL:
+                 </td>
+                 <td>
+                  <input type="email" name="email">
+                 </td>
+           </tr>
+           <tr>
+            <td>
+              AGE:
+            </td>
+            <td>
+              <input type="text" name="age">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              GENDER:
+            </td>
+            <td>
+              <input type="radio" name="gender" value = "Male">Male
+              <input type="radio" name="gender" value = "Female">Female
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CAST:
+
+            </td>
+            <td>
+              <select>
+                <option value="Gen" name="cast">Gen</option>
+                <option value="Obc" name="cast">OBC</option>
+                <option value="St" name="cast">st</option>
+
+                </td>
+                </select>
+
+           
+           
+          </tr>
+          <tr>
+            <td>
+              PH:
+            </td>
+            <td>
+            <select>
+              <option value="ph" name="ph"></option>
+              <option value="yes" name="ph">yes</option>
+              <option value="no"name="ph">no</option>
+            </td>
+          </select>
+
+          </tr>
+          <tr>
+            <td>
+              MOBILE:
+            </td>
+            <td>
+           
+              <input type="phone" placeholder="+91">
+            </td>
+          </tr>
+          <tr>
+          <td>
+
+            CLASS:
+          </td>
+          <td>
+            <select>
+              <option value="class"></option>
+              <option value="class 1" name="class" > class 1</option>
+              <option value=" class 2" name="class" > class 2</option>
+              <option value="class 3" name="class" > class 3</option>
+              <option value="class 4" name="class" > class 4</option>
+            </select>
+
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            ADDRESS:
+          </td>
+          <td>
+            <input type=" text " name="address">
+          </td>
+          <tr>
+            <td>
+
+              <button type ="submit" class="registerbtn"> register</button>  
+         
+     </table>
+</form>
+</body>
+</html>
